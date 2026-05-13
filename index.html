@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <style>
-
+        @media (max-width: 800px) {
+          #botao {
+              height: 10vh;
+              width: 30vw;
+              top: 70vh;
+          }
+        }
     </style>
 </head>
 <body id="body" style="background-image: url('image.png'); display: flex; justify-content: center; align-items: center; margin-bottom: 20vh;">
@@ -16,15 +22,6 @@
         <img src="botao.png" style = "display:flex; position: fixed; height: 30vh; left: 37vw; top: 75vh" id="botao" alt="">
     </a>
 </body>
-
-<script>
-    const botao = document.getElementById('botao');
-
-    botao.addEventListener('click', () => {
-
-    })
-
-</script>
 </html>
 
 
